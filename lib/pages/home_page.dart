@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueAccent.shade700,
-        title: Text('My Houses'),
+        title: Text('Beautiful Pictures BD'),
         centerTitle: true,
       ),
       body: SingleChildScrollView(   //expanded used row & culomn
@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         ClipRRect(
                             borderRadius: BorderRadius.circular(24),
-                            child: Image.asset('images/my_house.jpg'))
+                            child: Image.asset('images/sajek.jpg'))
                       ],
                     ),
                   ),
@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
                   right: 0,
 
                   child: Text(
-                    'My Home',
+                    'Sajek Valley',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,color: Colors.white70,
@@ -82,7 +82,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         ClipRRect(
                             borderRadius: BorderRadius.circular(24),
-                            child: Image.asset('images/my_house.jpg'))
+                            child: Image.asset('images/sylhet.jpg'))
                       ],
                     ),
                   ),
@@ -105,7 +105,7 @@ class HomePage extends StatelessWidget {
                   right: 0,
 
                   child: Text(
-                    'My Home',
+                    'Sylhet',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,color: Colors.white70,
@@ -137,7 +137,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         ClipRRect(
                             borderRadius: BorderRadius.circular(24),
-                            child: Image.asset('images/my_house.jpg'))
+                            child: Image.asset('images/cox.jpg'))
                       ],
                     ),
                   ),
@@ -160,7 +160,7 @@ class HomePage extends StatelessWidget {
                   right: 0,
 
                   child: Text(
-                    'My Home',
+                    'Cox Bazar',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,color: Colors.white70,
@@ -192,7 +192,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         ClipRRect(
                             borderRadius: BorderRadius.circular(24),
-                            child: Image.asset('images/my_house.jpg'))
+                            child: Image.asset('images/srimangal.jpg'))
                       ],
                     ),
                   ),
@@ -215,7 +215,7 @@ class HomePage extends StatelessWidget {
                   right: 0,
 
                   child: Text(
-                    'My Home',
+                    'Srimangal',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,color: Colors.white70,
@@ -247,7 +247,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         ClipRRect(
                             borderRadius: BorderRadius.circular(24),
-                            child: Image.asset('images/my_house.jpg'))
+                            child: Image.asset('images/bandarban.jpg'))
                       ],
                     ),
                   ),
@@ -270,7 +270,7 @@ class HomePage extends StatelessWidget {
                   right: 0,
 
                   child: Text(
-                    'My Home',
+                    'Bandarban',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,color: Colors.white70,
