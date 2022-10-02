@@ -109,7 +109,7 @@ class HomePage extends StatelessWidget {
                     'Sylhet',
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 20,color: Colors.white70,
+                      fontSize: 25,color: Colors.white70,
                     ),
                   ),
                 ),
