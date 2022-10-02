@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueAccent.shade700,
+        backgroundColor: Colors.deepOrange.shade700,
         title: Text('Beautiful Pictures BD'),
         centerTitle: true,
       ),
@@ -25,9 +25,10 @@ class HomePage extends StatelessWidget {
                     padding: EdgeInsets.all(8),
                     child: Column(
                       children: [
+
                         ClipRRect(
                             borderRadius: BorderRadius.circular(24),
-                            child: Image.asset('images/sajek.jpg'))
+                            child: Image.asset('images/sajek.jpg',))
                       ],
                     ),
                   ),
